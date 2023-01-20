@@ -1,0 +1,43 @@
+.left-d{
+    background-color: whitesmoke;
+    float: left;
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20%;
+
+}
+
+
+.login-form{
+    padding-top: 27.6%;
+    display: flex;
+    /* padding-bottom: 30%; */
+    flex-direction: column;
+    align-items: center;
+}
+
+
+label{
+    text-align: left;
+    padding: .5rem;
+
+}
+
+.login-form button{
+    background-color: chocolate;
+    color: black;
+    font-size: large;
+    border-radius: .2rem;
+    text-align: center;
+}
+
+.right-d img{
+    /* height: 80%; */
+    width: 50%;
+    float: right;
+}

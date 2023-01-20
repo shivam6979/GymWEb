@@ -1,0 +1,48 @@
+.img1 img{
+    width: 100%;
+}
+
+.plans-categories{
+    display:block;
+    overflow-y: scroll;
+
+}
+.plans-categories>*{
+    margin: 10px;
+    height: 50px;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.left-div{
+    float: left;
+    padding-top: 10%;
+    padding-right: 50px;
+    height: 77.6%;
+    /* background-color: pink; */
+    padding-bottom: 10%;
+    border-radius: .9rem;
+
+}
+
+.right-div{
+    float: right;
+    flex:1;
+    width: 100%;
+    position: relative;
+    overflow-y: scroll;
+
+
+}
+.right-div>*{
+    margin: 10px;
+    height: 77.6%;
+}
+
+
+.category{
+    overflow-y: scroll;
+}

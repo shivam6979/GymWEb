@@ -1,0 +1,80 @@
+.div-left{
+    float: left;
+    width: 50%;
+    height: 50 px;
+    padding-top: 14%;
+    padding-bottom: 14%	;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.div-left button{
+    width: 200px;
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(113, 86, 40);
+    border-radius: 1rem;
+    border: none;
+}
+
+.div-left button:hover{
+    cursor: pointer;
+    background-color:  rgb(142, 106, 44);
+}
+
+.div-right{
+    float: right;
+    /* background-color: blue; */
+    width: 50%;
+    height: 50 px;
+}
+
+.div-right img{
+    width: 100%;
+    /* height: 50 px; */
+}
+
+
+.helpUIn{
+    display: flex;
+    padding: 2rem;
+    padding-left: 35px;
+    gap: 4rem;
+    align-items: center;
+    
+
+}
+
+.category6{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    gap: 1rem;
+
+    color: white;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+/* targeting image */
+/* .category6>:nth-child(1){ */
+    /* width: 20rem; */
+/* } */
+.circle{
+    background-color: red;
+    display: flex;
+    padding-left: 20px;
+    border-radius: 50%;
+    align-items: center;
+    height: 110px;
+    width: 90px;
+}
+.circle span{
+    color: black;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 10px;
+}

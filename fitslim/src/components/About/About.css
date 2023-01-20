@@ -1,0 +1,25 @@
+.about-category{
+    display: flex;
+    gap: 1rem;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+/* targeting image */
+.category>:nth-child(1){
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.category>:nth-child(2){
+    font-size: 0.9rem;
+    line-height: 25px;
+}

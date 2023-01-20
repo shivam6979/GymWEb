@@ -1,0 +1,70 @@
+.Programs{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.Programs-header{
+    display: flex;
+    gap: 5rem;
+    font-weight: bold;
+    font-size: 3rem;
+    /* justify-content: center; */
+    color: white;
+    text-transform: uppercase;
+
+}
+
+/* makingfor nutriants  */
+
+.program-categories{
+    display: flex;
+    gap: 1rem;
+}
+.category{
+    display: flex;
+    flex-direction: column;
+    background-color: gray;
+    padding: 2rem;
+    gap: 1rem;
+    color: white;
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+
+/* targeting image */
+.category>:nth-child(1){
+    width: 20rem;
+}
+.category>:nth-child(2){
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+.category>:nth-child(3){
+    font-size: 0.9rem;
+    line-height: 25px;
+}
+
+.witness{
+    background-color: #fff;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    gap: 5rem;
+
+}
+
+/* .catogries{ */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* width: 10px; */
+
+/* } */
+.catogries1 span{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding-left: 80px;
+
+}

@@ -1,0 +1,33 @@
+.signup-form1{
+    background-color: whitesmoke;
+    
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20%;
+
+}
+
+
+.signup-form{
+    padding-top: 34.3%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label{
+    text-align: left;
+    padding: .5rem;
+
+}
+.login-form button{
+    background-color: chocolate;
+    color: black;
+    font-size: large;
+    border-radius: .2rem;
+    text-align: center;
+}
